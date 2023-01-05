@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>BaseFragment</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>N motion pro app</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="N motion pro app::com.nugamedical.n7.base/BaseFragment///PointingToDeclaration//492899073">
+  <div class="breadcrumbs"><a href="../../../index.html">N motion pro app</a><span class="delimiter">/</span><a href="../index.html">com.nugamedical.n7.base</a><span class="delimiter">/</span><span class="current">BaseFragment</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Base</span><wbr></wbr><span><span>Fragment</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="index.html">BaseFragment</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator"> : </span><span data-unresolved-link="androidx.databinding/ViewDataBinding///PointingToDeclaration/">ViewDataBinding</span><span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/LayoutRes.html"><span class="token annotation builtin">LayoutRes</span></a> </span>contentLayoutId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a></div><p class="paragraph">Base fragment</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Parameters">Parameters</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
+    <div class="tabs-section-body">
+      <h4 class="">Parameters</h4>
+      <div data-togglable="Parameters">
+        <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>T</span></span></u></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>content</span><wbr></wbr><span>Layout</span><wbr></wbr><span><span>Id</span></span></u></div></span></div><div></div></div></div></div></div></div></div>
+      </div>
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="230439984%2FConstructors%2F492899073" anchor-label="BaseFragment" id="230439984%2FConstructors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-base-fragment.html"><span>Base</span><wbr></wbr><span><span>Fragment</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="230439984%2FConstructors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-base-fragment.html"><span class="token function">BaseFragment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/LayoutRes.html"><span class="token annotation builtin">LayoutRes</span></a> </span>contentLayoutId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="1868852521%2FFunctions%2F492899073" anchor-label="onCreateView" id="1868852521%2FFunctions%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-create-view.html"><span>on</span><wbr></wbr><span>Create</span><wbr></wbr><span><span>View</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1868852521%2FFunctions%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-create-view.html"><span class="token function">onCreateView</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">inflater<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/LayoutInflater.html">LayoutInflater</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/ViewGroup.html">ViewGroup</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a><span class="token operator">?</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="60783474%2FFunctions%2F492899073" anchor-label="onStop" id="60783474%2FFunctions%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-stop.html"><span>on</span><wbr></wbr><span><span>Stop</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="60783474%2FFunctions%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-stop.html"><span class="token function">onStop</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Inheritors</h2>
+      <div class="table" data-togglable="Inheritors"><a data-name="-384604341%2FInheritors%2F492899073" anchor-label="AdminInputPasswordFragment" id="-384604341%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.admin/-admin-input-password-fragment/index.html">AdminInputPasswordFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-384604341%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1658878169%2FInheritors%2F492899073" anchor-label="AdminMainFragment" id="1658878169%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.admin/-admin-main-fragment/index.html">AdminMainFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1658878169%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1685781032%2FInheritors%2F492899073" anchor-label="AdminPageErrorLogsFragment" id="1685781032%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.admin/-admin-page-error-logs-fragment/index.html">AdminPageErrorLogsFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1685781032%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="613019121%2FInheritors%2F492899073" anchor-label="AdminPageFunctionalTestCommunicationsFragment" id="613019121%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.admin/-admin-page-functional-test-communications-fragment/index.html">AdminPageFunctionalTestCommunicationsFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="613019121%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="290540939%2FInheritors%2F492899073" anchor-label="AdminPageFunctionalTestHeatingElementsFragment" id="290540939%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.admin/-admin-page-functional-test-heating-elements-fragment/index.html">AdminPageFunctionalTestHeatingElementsFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="290540939%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1818602448%2FInheritors%2F492899073" anchor-label="AdminPageFunctionalTestMotorsFragment" id="1818602448%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.admin/-admin-page-functional-test-motors-fragment/index.html">AdminPageFunctionalTestMotorsFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1818602448%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="122880921%2FInheritors%2F492899073" anchor-label="AdminPageTimesFragment" id="122880921%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.admin/-admin-page-times-fragment/index.html">AdminPageTimesFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="122880921%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-1450544356%2FInheritors%2F492899073" anchor-label="AgreementFragment" id="-1450544356%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.agreement/-agreement-fragment/index.html">AgreementFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1450544356%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="633191147%2FInheritors%2F492899073" anchor-label="AppSettingsFragment" id="633191147%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.app_settings/-app-settings-fragment/index.html">AppSettingsFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="633191147%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1736925919%2FInheritors%2F492899073" anchor-label="DebugHostModeFragment" id="1736925919%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.debug/-debug-host-mode-fragment/index.html">DebugHostModeFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1736925919%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-1269224191%2FInheritors%2F492899073" anchor-label="EntertainmentHomeFragment" id="-1269224191%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.entertainment/-entertainment-home-fragment/index.html">EntertainmentHomeFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1269224191%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="443755561%2FInheritors%2F492899073" anchor-label="EntertainmentWebViewFragment" id="443755561%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.entertainment/-entertainment-web-view-fragment/index.html">EntertainmentWebViewFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="443755561%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-1307959886%2FInheritors%2F492899073" anchor-label="InitFragment" id="-1307959886%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.init/-init-fragment/index.html">InitFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1307959886%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-825633742%2FInheritors%2F492899073" anchor-label="LanguageFragment" id="-825633742%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.language/-language-fragment/index.html">LanguageFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-825633742%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1015504670%2FInheritors%2F492899073" anchor-label="MassageControllerFragment" id="1015504670%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage/-massage-controller-fragment/index.html">MassageControllerFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1015504670%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="244846843%2FInheritors%2F492899073" anchor-label="MassageHomeFragment" id="244846843%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage/-massage-home-fragment/index.html">MassageHomeFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="244846843%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="973842335%2FInheritors%2F492899073" anchor-label="MassageModeSelectionFragment" id="973842335%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage/-massage-mode-selection-fragment/index.html">MassageModeSelectionFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="973842335%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="280111747%2FInheritors%2F492899073" anchor-label="MassageControllerMainFragment" id="280111747%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage.massage_controller.massage_controller_main/-massage-controller-main-fragment/index.html">MassageControllerMainFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="280111747%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="168831479%2FInheritors%2F492899073" anchor-label="MassageControllerSettingsAccessoryFragment" id="168831479%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage.massage_controller.massage_controller_main/-massage-controller-settings-accessory-fragment/index.html">MassageControllerSettingsAccessoryFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="168831479%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-11906558%2FInheritors%2F492899073" anchor-label="MassageControllerSettingsAssistanceAndExternalHeaterFragment" id="-11906558%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage.massage_controller.massage_controller_main/-massage-controller-settings-assistance-and-external-heater-fragment/index.html">MassageControllerSettingsAssistanceAndExternalHeaterFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-11906558%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1327595050%2FInheritors%2F492899073" anchor-label="MassageControllerSettingsInternalProjectorFragment" id="1327595050%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage.massage_controller.massage_controller_main/-massage-controller-settings-internal-projector-fragment/index.html">MassageControllerSettingsInternalProjectorFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1327595050%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-1982446341%2FInheritors%2F492899073" anchor-label="MassageControllerScanFragment" id="-1982446341%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage.massage_controller.massage_controller_scan/-massage-controller-scan-fragment/index.html">MassageControllerScanFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1982446341%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-373573183%2FInheritors%2F492899073" anchor-label="MassageModesMenuAutoModeFragment" id="-373573183%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage.massage_modes_menu/-massage-modes-menu-auto-mode-fragment/index.html">MassageModesMenuAutoModeFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-373573183%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="188626591%2FInheritors%2F492899073" anchor-label="MassageModesMenuConcentrationModeFragment" id="188626591%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage.massage_modes_menu/-massage-modes-menu-concentration-mode-fragment/index.html">MassageModesMenuConcentrationModeFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="188626591%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-670954022%2FInheritors%2F492899073" anchor-label="MassageModesMenuMainFragment" id="-670954022%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage.massage_modes_menu/-massage-modes-menu-main-fragment/index.html">MassageModesMenuMainFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-670954022%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="987192714%2FInheritors%2F492899073" anchor-label="MassageModesMenuManualModeFragment" id="987192714%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.massage.massage_modes_menu/-massage-modes-menu-manual-mode-fragment/index.html">MassageModesMenuManualModeFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="987192714%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1526921650%2FInheritors%2F492899073" anchor-label="OnBoardingFragment" id="1526921650%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.onboarding/-on-boarding-fragment/index.html">OnBoardingFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1526921650%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-775012206%2FInheritors%2F492899073" anchor-label="RecordFragment" id="-775012206%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.record/-record-fragment/index.html">RecordFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-775012206%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-1052210708%2FInheritors%2F492899073" anchor-label="RegisterScreen0Fragment" id="-1052210708%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.register/-register-screen0-fragment/index.html">RegisterScreen0Fragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1052210708%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-26718709%2FInheritors%2F492899073" anchor-label="RegisterScreen1Fragment" id="-26718709%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.register/-register-screen1-fragment/index.html">RegisterScreen1Fragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-26718709%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="998773290%2FInheritors%2F492899073" anchor-label="RegisterScreen2Fragment" id="998773290%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.register/-register-screen2-fragment/index.html">RegisterScreen2Fragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="998773290%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="2024265289%2FInheritors%2F492899073" anchor-label="RegisterScreen3Fragment" id="2024265289%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.register/-register-screen3-fragment/index.html">RegisterScreen3Fragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2024265289%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-697850439%2FInheritors%2F492899073" anchor-label="RegisterScreen4aFragment" id="-697850439%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.register/-register-screen4a-fragment/index.html">RegisterScreen4aFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-697850439%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="327641560%2FInheritors%2F492899073" anchor-label="RegisterScreen4bFragment" id="327641560%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.register/-register-screen4b-fragment/index.html">RegisterScreen4bFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="327641560%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1353133559%2FInheritors%2F492899073" anchor-label="RegisterScreen4cFragment" id="1353133559%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.register/-register-screen4c-fragment/index.html">RegisterScreen4cFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1353133559%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="101095972%2FInheritors%2F492899073" anchor-label="RegisterScreenDoneFragment" id="101095972%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.register/-register-screen-done-fragment/index.html">RegisterScreenDoneFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="101095972%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="608702449%2FInheritors%2F492899073" anchor-label="RegisterTermsConditionsFragment" id="608702449%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.register/-register-terms-conditions-fragment/index.html">RegisterTermsConditionsFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="608702449%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-61718299%2FInheritors%2F492899073" anchor-label="SettingAccountFragment" id="-61718299%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.setting/-setting-account-fragment/index.html">SettingAccountFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-61718299%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-1428604060%2FInheritors%2F492899073" anchor-label="SettingDeviceAndAccountFragment" id="-1428604060%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.setting/-setting-device-and-account-fragment/index.html">SettingDeviceAndAccountFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1428604060%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-250997670%2FInheritors%2F492899073" anchor-label="SettingDeviceFragment" id="-250997670%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.setting/-setting-device-fragment/index.html">SettingDeviceFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-250997670%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1392903538%2FInheritors%2F492899073" anchor-label="TutorialFragment" id="1392903538%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.tutorial/-tutorial-fragment/index.html">TutorialFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1392903538%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1766563963%2FInheritors%2F492899073" anchor-label="UserRecordFragment" id="1766563963%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.user_record/-user-record-fragment/index.html">UserRecordFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1766563963%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1302289928%2FInheritors%2F492899073" anchor-label="UserInfoAddOrModifyFragment" id="1302289928%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.users_management.user_info_add_or_modify_user/-user-info-add-or-modify-fragment/index.html">UserInfoAddOrModifyFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1302289928%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="2044405332%2FInheritors%2F492899073" anchor-label="UserRegistrationDoneFragment" id="2044405332%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.users_management.user_registration_done/-user-registration-done-fragment/index.html">UserRegistrationDoneFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2044405332%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-311182806%2FInheritors%2F492899073" anchor-label="UserVoiceRegistrationFragment" id="-311182806%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.users_management.user_voice_registration/-user-voice-registration-fragment/index.html">UserVoiceRegistrationFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-311182806%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-1565603637%2FInheritors%2F492899073" anchor-label="UsersMainFragment" id="-1565603637%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.users_management.users_main/-users-main-fragment/index.html">UsersMainFragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1565603637%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-1145009333%2FInheritors%2F492899073" anchor-label="WifiScreen1Fragment" id="-1145009333%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.wifi/-wifi-screen1-fragment/index.html">WifiScreen1Fragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1145009333%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="-119517334%2FInheritors%2F492899073" anchor-label="WifiScreen2Fragment" id="-119517334%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.wifi/-wifi-screen2-fragment/index.html">WifiScreen2Fragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-119517334%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="905974665%2FInheritors%2F492899073" anchor-label="WifiScreen3Fragment" id="905974665%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.wifi/-wifi-screen3-fragment/index.html">WifiScreen3Fragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="905974665%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+<a data-name="1931466664%2FInheritors%2F492899073" anchor-label="WifiScreen4Fragment" id="1931466664%2FInheritors%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.nugamedical.n7.ui.wifi/-wifi-screen4-fragment/index.html">WifiScreen4Fragment</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1931466664%2FInheritors%2F492899073"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
